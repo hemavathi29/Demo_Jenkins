@@ -1,8 +1,11 @@
 package Pack1;
 
-public class SampleClass2 {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class SampleClass2 {
+	
+	@Test
+	public void test2() {
 		String S1 = "Selenium";
 		
 		char c[] = S1.toCharArray();
